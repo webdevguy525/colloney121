@@ -1,0 +1,43 @@
+/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 20/01/2019 17:26
+  	*/
+
+@font-face {
+  font-family: 'Flaticon1';
+  src: url('../fonts/Flaticon1.eot');
+  src: url('../fonts/Flaticon1.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Flaticon1.woff2') format('woff2'),
+    url('../fonts/Flaticon1.woff') format('woff'),
+    url('../fonts/Flaticon1.ttf') format('truetype'),
+    url('../fonts/Flaticon1.svg#Flaticon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'Flaticon1';
+    src: url('../fonts/Flaticon1.svg#Flaticon') format('svg');
+  }
+}
+
+[class^='flaticon1-']:before,
+[class*=' flaticon1-']:before,
+[class^='flaticon1-']:after,
+[class*=' flaticon1-']:after {
+  font-family: Flaticon1;
+  font-size: 20px;
+  font-style: normal;
+  margin-left: 20px;
+}
+
+.flaticon1-alarm-bell:before {
+  content: '\f100';
+}
+.flaticon1-bell:before {
+  content: '\f101';
+}
+.flaticon1-bell-1:before {
+  content: '\f102';
+}
